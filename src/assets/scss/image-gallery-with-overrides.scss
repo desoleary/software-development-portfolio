@@ -1,0 +1,23 @@
+@import '~react-image-gallery/styles/scss/image-gallery.scss';
+
+.sdp-image-gallery {
+  .image-gallery-fullscreen-button,
+  .image-gallery-play-button {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .image-gallery-content {
+    line-height: unset;
+  }
+
+  .image-gallery-slides {
+    line-height: unset;
+    text-align: unset;
+  }
+
+  .image-gallery-left-nav,
+  .image-gallery-right-nav {
+    position: fixed;
+  }
+}

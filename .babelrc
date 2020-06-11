@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    [
+      "babel-plugin-styled-components",
+      {
+        "displayName": true,
+        "minify": false,
+        "pure": false,
+        "transpileTemplateLiterals": false
+      }
+    ]
+  ]
+}
